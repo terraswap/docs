@@ -30,6 +30,16 @@ $color-btn-bg: $pink-500;
 $color-btn-border: darken($pink-500, 5%);
 $color-btn-text: $white;
 
+// Terraswap
+$terraswap: #0222BA;
+$terraswap-haze: lighten($terraswap, 50%);
+$terraswap-primary: #08D9B9;
+$terraswap-lighten: lighten($terraswap, 20%);
+$terraswap-darken: darken($terraswap, 20%);
+$terraswap-primary-lighten: lighten($terraswap-primary, 40%);
+$primary: $terraswap-primary;
+
+
 // Options
 //
 // Quickly modify global styling by enabling or disabling optional features.
@@ -63,8 +73,8 @@ $navbar-light-toggler-icon-bg: none;
 //
 // Settings for the `<body>` element.
 
-$body-bg:                   $white;
-$body-color:                $black;
+$body-bg:                   $terraswap;
+$body-color:                $white;
 
 // Links
 //
@@ -139,7 +149,7 @@ $navbar-padding-x:                  null;
 
 $navbar-nav-link-padding-x:         0.5rem;
 
-$navbar-light-color:                $black;
+$navbar-light-color:                $white;
 $navbar-light-hover-color:          $primary;
 $navbar-light-active-color:         $primary;
 
@@ -188,3 +198,141 @@ $dropdown-config: (
 );
 
 $input-btn-focus-width:       0;
+
+// Terraswap
+body .navbar {
+  background-color: rgba(2, 34, 186, 0.95);
+  border-bottom: 1px solid $terraswap-lighten;
+}
+
+body .offcanvas-header {
+  border-bottom: 1px solid $terraswap-lighten;
+}
+
+body .footer {
+  border-top: 1px solid $terraswap-lighten;
+}
+
+body .docs-navigation {
+  border-top: 1px solid $terraswap-lighten;
+}
+
+body .page-links li:not(:first-child) {
+  border-top: 1px dashed $terraswap-lighten;
+}
+
+body .docs-sidebar {
+  border-right: 1px solid $terraswap-lighten;
+}
+
+body pre code::-webkit-scrollbar-thumb {
+  background: $terraswap-primary;
+}
+
+body pre code:hover {
+  scrollbar-width: thin;
+  scrollbar-color: $terraswap-primary transparent;
+}
+
+body pre code::-webkit-scrollbar-thumb:hover {
+  background: $terraswap-primary;
+}
+
+body .docs-links,
+body .docs-toc {
+  scrollbar-width: thin;
+  scrollbar-color: $terraswap;
+}
+
+body .docs-links::-webkit-scrollbar-track,
+body .docs-toc::-webkit-scrollbar-track {
+  background: $terraswap;
+}
+
+body .docs-links::-webkit-scrollbar-thumb,
+body .docs-toc::-webkit-scrollbar-thumb {
+  background: $terraswap;
+}
+
+body .docs-links:hover::-webkit-scrollbar-thumb,
+body .docs-toc:hover::-webkit-scrollbar-thumb {
+  background: $terraswap-primary;
+}
+
+body .docs-links::-webkit-scrollbar-thumb:hover,
+body .docs-toc::-webkit-scrollbar-thumb:hover {
+  background: $terraswap-primary;
+}
+
+
+body .form-control.is-search {
+  background: $terraswap-haze;
+}
+
+body .card {
+  background: $terraswap;
+  color: $terraswap-primary;
+  border-color: $terraswap-lighten;
+}
+
+body code {
+  background: $terraswap-haze;
+}
+
+body .hljs {
+  background: $terraswap-haze;
+  color: $black;
+}
+
+body .offcanvas {
+  background-color: $terraswap;
+}
+
+body {
+  --bs-dark-rgb: $white;
+}
+
+body .btn-menu:hover {
+  color: $terraswap-primary;
+  background: transparent;
+}
+
+body .text-muted {
+  color: $white !important;
+}
+
+body .btn-toggle:before {
+  content: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%2308D9B9' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/%3e%3c/svg%3e");
+}
+
+body .alert-doks {
+  background-color: $terraswap-haze
+}
+
+body .alert-doks a {
+  color: $terraswap;
+}
+
+body .alert-doks a:hover {
+  color: $terraswap-darken;
+}
+
+body .alert-info {
+  background-color: $terraswap-primary-lighten;
+}
+
+body .alert-info a {
+  color: $terraswap;
+}
+
+body .alert-info a:hover {
+  color: $terraswap-darken;
+}
+
+body .alert-warning a {
+  color: $terraswap;
+}
+
+body .alert-warning a:hover {
+  color: $terraswap-darken;
+}
