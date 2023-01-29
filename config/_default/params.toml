@@ -1,10 +1,10 @@
 # Meta Data for SEO
 
 ## Homepage
-title = "Doks"
-titleSeparator = "-"
-titleAddition = "Modern Documentation Theme"
-description = "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
+title = "Terraswap"
+titleSeparator = "|"
+titleAddition = ""
+description = "Technical documentation for the Terraswap and Terraswap Classic"
 
 ## Documentation
 # docsVersion = "0.3"
@@ -12,8 +12,8 @@ description = "Doks is a Hugo theme for building secure, fast, and SEO-ready doc
 ## Open Graph
 images = ["doks.png"]
 ogLocale = "en_US"
-domainTLD = "doks.netlify.app"
-titleHome = "Doks Theme"
+domainTLD = "docs-v2-terraswap.netlify.app"
+titleHome = "Terraswap Docs"
 
 ## Twitter Cards
 twitterSite = ""
@@ -79,10 +79,10 @@ alertText = "Introducing the Doks child theme, several DX + UX updates, and more
 # Edit Page
 # repoHost [Github | Gitea | GitLab | Bitbucket | BitbucketServer ] is used for building the edit link based on git hoster
 repoHost = "GitHub"
-docsRepo = "https://github.com/DELIGHT-LABS/hugo-theme-doks"
+docsRepo = "https://github.com/terraswap/docs"
 docsRepoBranch = "main"
 docsRepoSubPath = ""
-editPage = false
+editPage = true
 lastMod = false
 
 [sections]
@@ -95,7 +95,7 @@ lastMod = false
   flexSearch = true
   searchSectionsShow = []
   searchSectionsIndex = []
-  darkMode = true
+  darkMode = false
   bootStrapJs = true
   breadCrumb = false
   highLight = true
@@ -108,7 +108,7 @@ lastMod = false
   scrollSpy = false # experimental; needs Bootstrap >= 5.2.0-beta1
   navButtonInSection = true
   disableHeaderBar = true
-  alternativeHome = "/docs/prologue/introduction/"
+  alternativeHome = "/docs/introduction/about/"
 
 [menu]
   [menu.section]
