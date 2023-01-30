@@ -1,3 +1,82 @@
+/* OpenSans-Regular - latin */
+@font-face {
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src:
+    // Google Fonts OpenSans
+    local("OpenSans Regular Regular"),   // Full Name
+    local("OpenSans-Regular"),           // PostScript name
+    url("fonts/vendor/open-sans/static/OpenSans/OpenSans-Regular.ttf") format("truetype");
+}
+
+/* OpenSans-Medium - latin */
+@font-face {
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src:
+    // Google Fonts OpenSans
+    local("OpenSans Regular Medium"),
+    local("OpenSans-Medium"),
+    url("fonts/vendor/open-sans/static/OpenSans/OpenSans-Medium.ttf") format("truetype");
+}
+
+/* OpenSans-Bold - OpenSans */
+@font-face {
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src:
+    // Google Fonts OpenSans
+    local("OpenSans Regular Bold"),
+    local("OpenSans-Bold"),
+    url("fonts/vendor/open-sans/static/OpenSans/OpenSans-Bold.ttf") format("truetype");
+}
+
+/* OpenSans-Italic - latin */
+@font-face {
+  font-family: OpenSans;
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src:
+    // Google Fonts OpenSans
+    local("OpenSans Italic Italic"),
+    local("OpenSans-Italic"),
+    url("fonts/vendor/open-sans/static/OpenSans/OpenSans-Italic.ttf") format("truetype");
+}
+
+/* OpenSans-MediumItalic - latin */
+@font-face {
+  font-family: OpenSans;
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src:
+    // Google Fonts OpenSans
+    local("OpenSans Italic Medium Italic"),
+    local("OpenSans-MediumItalic"),
+    url("fonts/vendor/open-sans/static/OpenSans/OpenSans-MediumItalic.ttf") format("truetype");
+}
+
+/* OpenSans-BoldItalic - latin */
+@font-face {
+  font-family: OpenSans;
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src:
+    // Google Fonts OpenSans
+    local("OpenSans Italic Bold Italic"),
+    local("OpenSans-BoldItalic"),
+    url("fonts/vendor/open-sans/static/OpenSans/OpenSans-BoldItalic.ttf") format("truetype");
+}
+
+
 /* jost-regular - latin */
 @font-face {
   font-family: Jost;
