@@ -8,17 +8,17 @@ weight: 20
 This token contract is implemented under the CW20 standard and it fully supports Terraswap feature.
 Except for any function of your token itself contains more than an asset, we recommend minting your own token by **instantiating this binary**, rather than developing your own.
 
----
-> **NOTE**
->
-> We strongly encourage you to create by the pre-stored binary.\
-> There are some advantages below:
->
-> * These token, pair contract codes are well audited by the foundation. Don't have to audit for yours additionally.
-> * Now, the foundation lists your token only Token factory-created tokens & pairs.
-> * You don't have to migrate your contract whenever the Terra network performs an upgrade. The foundation will help you to migrate so that you don't have to take any action.
->
----
+{{< alert context="info" >}}
+**NOTE**
+
+We strongly encourage you to create by the pre-stored binary.\
+There are some advantages below:
+
+* These token, pair contract codes are well audited by the foundation. Don't have to audit for yours additionally.
+* Now, the foundation lists your token only Token factory-created tokens & pairs.
+* You don't have to migrate your contract whenever the Terra network performs an upgrade. The foundation will help you to migrate so that you don't have to take any action.
+
+{{< /alert >}}
 
 ## How to Mint
 
@@ -197,7 +197,7 @@ pub enum Cw20QueryMsg {
 pub struct MigrateMsg {}
 ```
 
-Then, compile your contract using it. 
+Then, compile your contract using it.
 
 ```bash
 docker run --rm -v "$(pwd)":/code \

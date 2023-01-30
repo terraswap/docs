@@ -3,7 +3,11 @@ title: Create Your Own Pair
 weight: 30
 ---
 
-PLEASE CHECK [HERE](#important---only-for-terra-20) for additional action on Terra 2.0
+{{< alert context="warning" >}}
+**Important - Only for Terra 2.0**
+
+PLEASE BE AWARE that native tokens must be registered in the factory first in order to create a pair including them. You can check registered native tokens through [this query]({{< ref "/docs/reference/factory#native-token-decimals" >}}). Contact us via [Terraswap Discord](https://discord.gg/XERFR8dCWv) if you need to add a new native token.
+{{< /alert >}}
 
 ## Instantiation by Contract Address
 
@@ -39,7 +43,3 @@ This is a JSON constructor of pair contract.
   - `asset_infos[x].native_token.denom`: Terra native token **denominator** is entered here.
 
 Then, you may execute the contract with the organized JSON above.
-
-## IMPORTANT - Only for Terra 2.0
-
-PLEASE BE AWARE that native tokens must be registered in the factory first in order to create a pair including them. You can check registered native tokens through [this query]({{< ref "/docs/reference/factory#native-token-decimals" >}}). Contact us via [Terraswap Discord](https://discord.gg/XERFR8dCWv) if you need to add a new native token.

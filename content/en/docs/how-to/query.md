@@ -16,13 +16,13 @@ terrad query wasm contract-state smart terra1466nf3zuxpya8q9emxukd7vftaf6h4psr0a
 ```
 
 - RESTFul API
-```URL
+```url
 <light_clinet_address>/cosmwasm/wasm/v1/contract/<contract_address>/smart/<JSON_formed_message_with_base64>
 ```
 
 ex)
 
-```URL
+```url
 https:://lcd.terra.dev/cosmwasm/wasm/v1/contract/terra1466nf3zuxpya8q9emxukd7vftaf6h4psr0a07srl5zw74zh84yjqxl5qul/smart/eyJwYWlycyI6e319
 ```
 
