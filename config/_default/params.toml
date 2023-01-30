@@ -10,9 +10,9 @@ description = "Technical documentation for the Terraswap and Terraswap Classic"
 # docsVersion = "0.3"
 
 ## Open Graph
-images = ["doks.png"]
+images = ["Terraswap-opengraph-image.jpg"]
 ogLocale = "en_US"
-domainTLD = "docs-v2-terraswap.netlify.app"
+domainTLD = "docs.terraswap.io"
 titleHome = "Terraswap Docs"
 
 ## Twitter Cards
