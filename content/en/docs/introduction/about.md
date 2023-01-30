@@ -5,6 +5,31 @@ weight: 10
 
 Terraswap is a [Uniswap](https://uniswap.org/)-inspired automated market-maker (AMM) protocol implemented with smart contracts on the Terra blockchain. The protocol enables a decentralized on-chain exchange for various assets involved in the Terra ecosystem.
 ***
+
+{{< alert >}}
+**Normal**
+
+STARFLEIT is ...
+{{< /alert >}}
+
+{{< alert context="info" >}}
+**Info**
+
+STARFLEIT is ...
+{{< /alert >}}
+
+{{< alert context="warning" >}}
+**Warning**
+
+STARFLEIT is ...
+{{< /alert >}}
+
+{{< alert context="danger" >}}
+**Danger**
+
+STARFLEIT is ...
+{{< /alert >}}
+
 ## Participants
 
 Users can participate in Terraswap as traders, liquidity providers, or both.
