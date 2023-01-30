@@ -225,8 +225,9 @@ body .docs-sidebar {
   border-right: 1px solid $terraswap-lighten;
 }
 
-body pre code::-webkit-scrollbar-thumb {
-  background: $terraswap-primary;
+body pre code {
+  scrollbar-width: thin;
+  scrollbar-color: $terraswap-primary transparent;
 }
 
 body pre code:hover {
@@ -234,34 +235,49 @@ body pre code:hover {
   scrollbar-color: $terraswap-primary transparent;
 }
 
+body pre code::-webkit-scrollbar-thumb {
+  background: $terraswap-primary;
+  border-radius: 30px;
+}
+
 body pre code::-webkit-scrollbar-thumb:hover {
   background: $terraswap-primary;
+  border-radius: 30px;
 }
 
 body .docs-links,
 body .docs-toc {
   scrollbar-width: thin;
-  scrollbar-color: $terraswap;
+  scrollbar-color: $terraswap-primary transparent;
+}
+
+body .docs-links:hover,
+body .docs-toc:hover {
+  scrollbar-width: thin;
+  scrollbar-color: $terraswap-primary transparent;
 }
 
 body .docs-links::-webkit-scrollbar-track,
 body .docs-toc::-webkit-scrollbar-track {
-  background: $terraswap;
+  background: transparent;
 }
 
 body .docs-links::-webkit-scrollbar-thumb,
 body .docs-toc::-webkit-scrollbar-thumb {
-  background: $terraswap;
+  background: $terraswap-primary;
+  border-radius: 30px;
 }
 
 body .docs-links:hover::-webkit-scrollbar-thumb,
 body .docs-toc:hover::-webkit-scrollbar-thumb {
   background: $terraswap-primary;
+  border-radius: 30px;
 }
 
 body .docs-links::-webkit-scrollbar-thumb:hover,
 body .docs-toc::-webkit-scrollbar-thumb:hover {
   background: $terraswap-primary;
+  border-radius: 30px;
 }
 
 
