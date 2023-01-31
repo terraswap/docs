@@ -1,4 +1,4 @@
-baseurl = "https://docs-v2-terraswap.netlify.app/"
+baseurl = "https://docs.terraswap.io/"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
