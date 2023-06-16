@@ -15,16 +15,22 @@ Instantiate a pair from uploaded WASM binary. Please check [this document]({{< r
 ```json
 {
   "create_pair": {
-    "asset_infos": [
+    "assets": [
       {
-        "token": {
-          "contract_addr": "terra..."
-        }
+        "info": {
+          "token": {
+            "contract_addr": "terra..."
+          }
+        },
+        "amount": "0"
       },
       {
-        "native_token": {
-          "denom": "uluna"
-        }
+        "info": {
+          "native_token": {
+            "denom": "uluna"
+          }
+        },
+        "amount": "0"
       }
     ]
   }
