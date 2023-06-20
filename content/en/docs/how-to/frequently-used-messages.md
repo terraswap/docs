@@ -38,7 +38,7 @@ If you are trying to provide cw20 token, increase your allowance first. [Execute
         "amount": "10"
       }
     ],
-    "deadline": 1686903051, // optional
+    "deadline": 1686903051, // optional, unix epoch
     "slippage_tolerance": "0.005" // optional
   }
 }
@@ -83,7 +83,7 @@ In `send.msg`, you may decode this JSON string into base64 encoding.
         "amount": "10"
       }
     ], // optional
-    "deadline": 1686903051 // optional
+    "deadline": 1686903051 // optional, unix epoch
   }
 }
 ```
