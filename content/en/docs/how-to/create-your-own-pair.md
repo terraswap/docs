@@ -4,7 +4,7 @@ weight: 30
 ---
 
 {{< alert context="warning" >}}
-**Important - Only for Terra 2.0**
+**Important**
 
 PLEASE BE AWARE that native tokens must be registered in the factory first in order to create a pair including them. You can check registered native tokens through [this query]({{< ref "/docs/reference/factory#native-token-decimals" >}}). Contact us via [Terraswap Discord](https://discord.gg/XERFR8dCWv) if you need to add a new native token.
 {{< /alert >}}

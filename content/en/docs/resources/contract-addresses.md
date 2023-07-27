@@ -21,7 +21,7 @@ weight: 10
 
 ### Columbus-5 Mainnet
 
-- Token code id: 6036
+- Token code id: 7395
 - Factory contract address: `terra1jkndu9w5attpz09ut02sgey5dd3e8sq5watzm0`
 - Router contract address: `terra1g3zc8lwwmkrm0cz9wkgl849pdqaw6cq8lh7872`
 

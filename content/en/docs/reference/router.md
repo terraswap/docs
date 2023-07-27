@@ -117,7 +117,6 @@ Query the amount of KRT that can be attained via UST by 10 mABNB<br />
     }
 }
 ```
-ex) https://bombay-fcd.terra.dev/wasm/contracts/terra1c58wrdkyc0ynvvxcv834kz65nfsxmw2w0pwusq/store?query_msg={%22simulate_swap_operations%22:{%22offer_amount%22:%2210000000%22,%22operations%22:[{%22terra_swap%22:{%22offer_asset_info%22:{%22token%22:{%22contract_addr%22:%22terra1747mad58h0w4y589y3sk84r5efqdev9q4r02pc%22}},%22ask_asset_info%22:{%22native_token%22:{%22denom%22:%22uusd%22}}}},{%22native_swap%22:{%22offer_denom%22:%22uusd%22,%22ask_denom%22:%22ukrw%22}}]}}
 
 ### Reverse Simulate Swap Operations
 
@@ -161,7 +160,6 @@ Query the amount of ANC needed to get 10 LUNC via UST <br />
     }
 }
 ```
-ex) https://bombay-fcd.terra.dev/wasm/contracts/terra1c58wrdkyc0ynvvxcv834kz65nfsxmw2w0pwusq/store?query_msg={%22reverse_simulate_swap_operations%22:{%22ask_amount%22:%2210000000%22,%22operations%22:[{%22terra_swap%22:{%22offer_asset_info%22:{%22token%22:{%22contract_addr%22:%22terra1747mad58h0w4y589y3sk84r5efqdev9q4r02pc%22}},%22ask_asset_info%22:{%22native_token%22:{%22denom%22:%22uusd%22}}}},{%22terra_swap%22:{%22offer_asset_info%22:{%22native_token%22:{%22denom%22:%22uusd%22}},%22ask_asset_info%22:{%22native_token%22:{%22denom%22:%22uluna%22}}}}]}}
 
 # Router - Terra 2.0
 
